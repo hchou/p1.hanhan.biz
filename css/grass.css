@@ -1,0 +1,41 @@
+body{ 
+font-family: fantasy;
+font-size:20px;
+color:#295200;
+margin:0; 
+padding:0;
+}
+
+#header{
+color:#ffffff;
+background-color:#333300;
+height:120px;
+}
+
+#left{ 
+float:left;
+width:150px;
+background-color:#B8DB4D; 
+min-height:700px;
+height:auto !important;
+height:700px;
+}
+
+#center { 
+margin-left:150px;
+background-color:#FFFFCC; 
+min-height:700px;
+height:auto !important;
+height:700px;
+}
+
+#header_text {
+    margin:20px;
+    float:right;
+    line-height:100px !important;
+}
+
+.body_text {
+    margin:20px;
+    line-height:50px !important;
+}
