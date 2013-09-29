@@ -12,17 +12,11 @@
     $nightColor = '#99CCFF';
     if ($hour >= 6 && $hour <= 20 ) {
         $themeClass = 'day';
-        #echo "<body style=\"background-color:$morningBackgroundColor\">";
-        echo "<a style=\"color:$morningColor\">$test</p>";
-        $backgroundColor = $morningBackgroundColor;
-        $color = $morningColor;
+        echo "<a>$test</a>";
     }
     else {
         $themeClass = 'night';
-        #echo "<body style=\"background-color:$nightBackgroundColor\">";
-        echo "<p style=\"color:$nightColor\">$test</p>";
-        $backgroundColor = $nightBackgroundColor;
-        $color = $nightColor;
+        echo "<a>$test</a>";
     }
     #echo "<p>$test</p>";
 ?>
