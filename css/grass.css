@@ -6,6 +6,16 @@ body {
     padding:0;
 }
 
+.night {
+    color:#99CCFF;
+    background-color:#000000;
+}
+
+.morning {
+    color:#000000;
+    background-color:#99CCFF;
+}
+
 #header{
     color:#ffffff;
     background-color:#333300;
